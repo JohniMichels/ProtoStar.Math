@@ -20,7 +20,7 @@ namespace ProtoStar.Math
         /// <summary>
         /// This property is used when hashing a double.
         /// <para>
-        /// The greater this value is, the more likelly it is to have a collision hash between two
+        /// The greater this value is, the more likely it is to have a collision hash between two
         /// values, but harder to make two equal values on this precision different.
         /// </para>
         /// </summary>
@@ -33,7 +33,7 @@ namespace ProtoStar.Math
 
         /// <summary>
         /// Defines which deviation will be considered:
-        /// <para>Linear (Absolute) | Geometric (Relative) | Most strict (both) | Least strict (Any)</para>
+        /// <para>Linear (Absolute) | Geometric (Relative) | Most strict (Both) | Least strict (Any)</para>
         /// </summary>
         public DeviationMode UsingDeviation { get; set; } = DeviationMode.Absolute;
 
