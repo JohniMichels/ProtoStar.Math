@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace ProtoStar.Math.ODE.Methods
+namespace ProtoStar.Math.ODE
 {
     public class ExplicitEuler : IExplicitSolver
     {
