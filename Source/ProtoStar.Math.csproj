@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <AssemblyName>ProtoStar.Math</AssemblyName>
+      <Version>1.0.0-alpha.1</Version>
+      <Company>ceCosmos</Company>
+      <Authors>Johni.Michels</Authors>
+      <RepositoryUrl>https://github.com/cecosmos/ProtoStar.Math</RepositoryUrl>
+      <LangVersion>latest</LangVersion>
+      <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>

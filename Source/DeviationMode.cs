@@ -7,8 +7,8 @@ namespace ProtoStar.Math
     public enum DeviationMode
     {
         Any = 0,
-        Absolute,
-        Relative,
-        Both
+        Absolute=1,
+        Relative=2,
+        Both=3
     }
 }
